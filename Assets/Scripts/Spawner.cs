@@ -42,6 +42,7 @@ public class Spawner : MonoBehaviour
 
     public void InstantiateBoid()
     {
+        // test comment
         GameObject go = Instantiate(boidPrefab);
         Boid b = go.GetComponent<Boid>();
         b.transform.SetParent(boidAnchor);
